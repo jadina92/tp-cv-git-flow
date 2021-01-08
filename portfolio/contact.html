@@ -81,18 +81,16 @@
                         <div class="contact_info">
                             <div class="info_item">
                                 <i class="lnr lnr-home"></i>
-                                <h6>California, United States</h6>
-                                <p>Santa monica bullevard</p>
+                                <h6>Paris ;France</h6>
                             </div>
                             <div class="info_item">
                                 <i class="lnr lnr-phone-handset"></i>
-                                <h6><a href="#">00 (440) 9865 562</a></h6>
-                                <p>Mon to Fri 9am to 6 pm</p>
+                                <h6><a href="#">00 33 33 56 76</a></h6>
                             </div>
                             <div class="info_item">
                                 <i class="lnr lnr-envelope"></i>
-                                <h6><a href="#">support@colorlib.com</a></h6>
-                                <p>Send us your query anytime!</p>
+                                <h6><a href="#">dina@2006</a></h6>
+                                <p>toujours a l'ecoute</p>
                             </div>
                         </div>
                     </div>
@@ -100,22 +98,22 @@
                         <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Entrez votre nom">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Entrez email address">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Entrez votre Suject">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+                                    <textarea class="form-control" name="message" id="message" rows="1" placeholder="Entrez votre Message"></textarea>
                                 </div>
                             </div>
                             <div class="col-md-12 text-right">
-                                <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                                <button type="submit" value="submit" class="btn submit_btn">envoyer un  Message</button>
                             </div>
                         </form>
                     </div>
@@ -130,11 +128,21 @@
       <div class="modal-dialog modal-sm">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" onclick="mydate(day,hour,minute,second,prepand)" class="close" data-dismiss="modal">&times;</button>
+            <button type="button"  class="close" data-dismiss="modal">&times;</button>
       
           </div>
           <div class="modal-body">
-            <p>aujourdhui on est le :</p>
+            "<script>  
+                var today = new Date();
+                   var day = today.getDay();
+                   var daylist = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
+                   var hour = today.getHours();
+                   var minute = today.getMinutes();
+                   var second = today.getSeconds();
+                   var prepand = (hour >= 12) ? " PM " : " AM ";
+                   document.writeln("Aujourd'hui, nous sommes " + daylist[day] + ", et il est " + hour + "h" + minute
+               + "m" + second + "s" + prepand);
+               </script>"
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -152,7 +160,7 @@
         					<div class="f_title">
         						<h3>About Me</h3>
         					</div>
-        					<p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+        					<p>Toujours travail votre reve </p>
         					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
@@ -163,7 +171,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         					<div class="f_title">
         						<h3>Newsletter</h3>
         					</div>
-        					<p>Stay updated with our latest trends</p>
+        					<p>Stay updated avec notre projets</p>
         					<div id="mc_embed_signup">
                                 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
                                 	<div class="input-group d-flex flex-row">
