@@ -120,7 +120,7 @@ button:focus {
     text-transform: uppercase; }
   .main_title p {
     font-size: 16px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: normal;
     line-height: 26px;
     color: #777777;
@@ -301,9 +301,9 @@ button:focus {
 .home_banner_area {
   position: relative;
   z-index: 1;
-  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -moz-linear-gradient(0deg, #ffa76d 0%, #88f3ff 100%);
+  background-image: -webkit-linear-gradient(0deg, #ffa76d 0%, #88f3ff 100%);
+  background-image: -ms-linear-gradient(0deg, #ffa76d 0%, #88f3ff 100%);
   margin-bottom: 200px; }
   .home_banner_area .box_1620 {
     min-height: 700px;
@@ -2842,59 +2842,6 @@ h6 {
 
 /* End Gallery Area css
 ============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Testimonials Area css
-============================================================================================ */
-.testimonials_area {
-  background: #f9f9ff; }
-  .testimonials_area.testi_two {
-    background: #fff; }
-    .testimonials_area.testi_two .testi_inner {
-      margin-top: -20px;
-      margin-bottom: -20px; }
-    .testimonials_area.testi_two .owl-item {
-      padding: 20px 0px; }
-    .testimonials_area.testi_two .testi_item {
-      background: #f9f9ff;
-      border-color: #f9f9ff;
-      transition: all 300ms linear 0s; }
-      .testimonials_area.testi_two .testi_item:hover {
-        background: #fff;
-        border-color: #fff;
-        box-shadow: 0px 10px 30px 0px rgba(153, 153, 153, 0.1); }
-
-.testi_inner .col-lg-3 {
-  vertical-align: middle;
-  align-self: center; }
-
-.test_title h2 {
-  color: #222222;
-  font-size: 36px;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  margin-bottom: 12px; }
-.test_title p {
-  margin-bottom: 0px; }
-
-.testi_item {
-  border: 1px solid #eeeeee;
-  border-radius: 10px;
-  background: #fff;
-  padding: 40px 28px; }
-  .testi_item p {
-    font-style: italic; }
-  .testi_item h4 {
-    color: #222222;
-    font-size: 18px;
-    text-transform: uppercase; }
-  .testi_item a {
-    color: #ffc000; }
-
-/* End Testimonials Area css
-============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
