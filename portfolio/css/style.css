@@ -301,9 +301,9 @@ button:focus {
 .home_banner_area {
   position: relative;
   z-index: 1;
-  background-image: -moz-linear-gradient(0deg, #ffa76d 0%, #88f3ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #ffa76d 0%, #88f3ff 100%);
-  background-image: -ms-linear-gradient(0deg, #ffa76d 0%, #88f3ff 100%);
+  background-image: -moz-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);
+  background-image: -webkit-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);
+  background-image: -ms-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);
   margin-bottom: 200px; }
   .home_banner_area .box_1620 {
     min-height: 700px;
@@ -378,9 +378,9 @@ button:focus {
   position: relative;
   z-index: 1;
   min-height: 350px;
-  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -moz-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);
+  background-image: -webkit-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);
+  background-image: -ms-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);
   margin-bottom: 120px; }
   .banner_area .box_1620 {
     background: #fff;
@@ -532,9 +532,9 @@ button:focus {
       width: 100%;
       height: 1px; }
   .categories_post:hover .categories_details {
-    background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    background-image: -moz-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);
+    background-image: -webkit-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);
+    background-image: -ms-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);
     opacity: 0.851; }
 
 /*============ blog_left_sidebar css ==============*/
@@ -1233,9 +1233,9 @@ button:focus {
       display: none; }
 
 .primary {
-  background: #52c5fd; }
+  background: #1d2b64; }
   .primary:before {
-    background: #2faae6; }
+    background: #f8cdda; }
 
 .success {
   background: #4cd3e3; }
@@ -2498,7 +2498,7 @@ h6 {
   border-radius: 5px; }
   .wel_item i {
     font-size: 24px;
-    background: linear-gradient(to right, #766dff 0%, #86e7ff 70%);
+    background: linear-gradient(to right,#1d2b64 0%, #f8cdda 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   .wel_item h4 {
@@ -2542,18 +2542,18 @@ h6 {
         border-radius: 5px;
         vertical-align: middle;
         align-self: center;
-        background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+        background-image: -moz-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);
+        background-image: -webkit-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);
+        background-image: -ms-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%); }
 
 /* End Welcome Area css
 ============================================================================================ */
 /* My Tabs Area css
 ============================================================================================ */
 .mytabs_area {
-  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+  background-image: -moz-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);;
+  background-image: -webkit-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);;
+  background-image: -ms-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);; }
 
 .tabs_inner .nav.nav-tabs {
   display: block;
@@ -2685,7 +2685,7 @@ h6 {
     border-color: #fff;
     background: #fff; }
     .feature_item:hover i:before {
-      background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+      background: linear-gradient(to right,#1d2b64 0%, #f8cdda 70%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
@@ -2760,9 +2760,9 @@ h6 {
       color: #fff;
       font-size: 16px; }
     .personal_text .personal_social li:hover a {
-      background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-      background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-      background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+      background-image: -moz-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);;
+      background-image: -webkit-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);;
+      background-image: -ms-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);; }
 
 /* End Personal Profile Area css
 ============================================================================================ */
@@ -2806,9 +2806,9 @@ h6 {
       height: 100%;
       left: 0px;
       top: 0px;
-      background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-      background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-      background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+      background-image: -moz-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);;
+      background-image: -webkit-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);;
+      background-image: -ms-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);;
       position: absolute;
       opacity: 0;
       transition: all 300ms ease; }
@@ -2910,9 +2910,9 @@ h6 {
       color: #cccccc; }
   .news_widget .input-group .sub-btn {
     border-radius: 0px;
-    background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    background-image: -moz-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);;
+    background-image: -webkit-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);;
+    background-image: -ms-linear-gradient(0deg, #1d2b64 0%, #f8cdda 100%);;
     outline: none !important;
     box-shadow: none !important;
     padding: 0px;
@@ -2937,13 +2937,13 @@ h6 {
   .social_widget .list li:last-child {
     margin-right: 0px; }
   .social_widget .list li:hover a {
-    color: #766dff; }
+    color: #1d2b64; }
 
 .copy_right_text {
   text-align: center;
   margin-top: 60px; }
   .copy_right_text p a {
-    color: #766dff; }
+    color: #1d2b64; }
 
 /* End Footer Area css
 ============================================================================================ */
