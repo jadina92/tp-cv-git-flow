@@ -55,8 +55,8 @@
 						<div class="banner_content text-center">
 							<h2>Contact Us</h2>
 							<div class="page_link">
-								<a href="index.html">Home</a>
-								<a href="contact.html">Contact Us</a>
+								<a href="index.html">Accueil</a>
+								<a href="contact.html">Contact Moi</a>
 							</div>
 						</div>
 					</div>
@@ -64,18 +64,10 @@
             </div>
         </section>
         <!--================End Home Banner Area =================-->
-        
+       
         <!--================Contact Area =================-->
         <section class="contact_area p_120">
             <div class="container ">
-                <div id="mapBox" class="mapBox" 
-                    data-lat="40.701083" 
-                    data-lon="-74.1522848" 
-                    data-zoom="13" 
-                    data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
-                    data-mlat="40.701083"
-                    data-mlon="-74.1522848">
-                </div>
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="contact_info">
@@ -89,7 +81,7 @@
                             </div>
                             <div class="info_item">
                                 <i class="lnr lnr-envelope"></i>
-                                <h6><a href="#">dina@2006</a></h6>
+                                <h6><a href="#">lara-croft@hotmail.com</a></h6>
                                 <p>toujours a l'ecoute</p>
                             </div>
                         </div>
@@ -120,37 +112,37 @@
                 </div>
             </div>
         </section>
-        <!--================Contact Area =================-->
-        
-<div class="container">
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">date aujourdhui</button>
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button"  class="close" data-dismiss="modal">&times;</button>
-      
-          </div>
-          <div class="modal-body">
-            "<script>  
-                var today = new Date();
-                   var day = today.getDay();
-                   var daylist = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
-                   var hour = today.getHours();
-                   var minute = today.getMinutes();
-                   var second = today.getSeconds();
-                   var prepand = (hour >= 12) ? " PM " : " AM ";
-                   document.writeln("Aujourd'hui, nous sommes " + daylist[day] + ", et il est " + hour + "h" + minute
-               + "m" + second + "s" + prepand);
-               </script>"
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        <!--================ End Contact Area =================-->
+        <!----------------date button--------------------------->
+        <section class="contact_area p_120">
+             <div class="container">
+               <button type="button" class="btn btn-outline-secondary btn-lg btn-block" data-toggle="modal" data-target="#myModal">Date aujourdhui</button>
+                  <div class="modal fade" id="myModal" role="dialog">
+                      <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <button type="button"  class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                       <div class="modal-body">
+                        "<script>  
+                            var today = new Date();
+                            var day = today.getDay();
+                            var daylist = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
+                            var hour = today.getHours();
+                            var minute = today.getMinutes();
+                            var second = today.getSeconds();
+                            var prepand = (hour >= 12) ? " PM " : " AM ";
+                            document.writeln("Aujourd'hui, nous sommes " + daylist[day] + ", et il est " + hour + "h" + minute
+                             + "m" + second + "s" + prepand);
+                        </script>"
+                       </div>
+                       <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                       </div>
+                   </div>
+                </div>
+              </div>
+        </section>
         <!--================Footer Area =================-->
         <footer class="footer_area p_120">
         	<div class="container">
@@ -169,7 +161,7 @@
         					<div class="f_title">
         						<h3>Newsletter</h3>
         					</div>
-        					<p>Stay updated avec notre projets</p>
+        					<p>Restez connecté avec nos projets</p>
         					<div id="mc_embed_signup">
                                 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
                                 	<div class="input-group d-flex flex-row">
